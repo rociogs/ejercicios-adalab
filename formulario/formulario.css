@@ -1,0 +1,52 @@
+.cabecera{
+	display: flex;
+	padding: 30px;
+	background-color:#3b5998;
+	justify-content: flex-end;
+}
+
+.name-subname{
+	display: flex;
+	justify-content: flex-end;
+	margin:10px;
+}
+
+.mail{
+	justify-content: flex-end;
+	display: flex;
+	margin: 10px;
+}
+
+.re-email{
+	justify-content: flex-end;
+	display: flex;
+	margin: 10px;
+}
+
+.password{
+	justify-content: flex-end;
+	display: flex;
+	margin: 10px;
+}
+.cumpleaños{
+	justify-content: flex-end;
+	display: flex;
+}
+
+.button{
+	justify-content: flex-end;
+	display: flex;
+	margin: 10px;
+	border-radius: 4px;
+	background-color: green;
+}
+.boton{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.foto{
+	float: left;
+	mar
+	position: relative;
+}
