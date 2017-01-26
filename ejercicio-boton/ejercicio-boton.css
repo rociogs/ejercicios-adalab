@@ -1,0 +1,60 @@
+.fuente{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.letras-logotipo{
+	display: flex;
+	align-items: flex-start;
+
+}
+
+.margin-letraslogotipo{
+	font-size: 70px;
+	margin-top: 5%;
+	color: grey;
+
+}
+
+
+.linea{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.width{
+	width: 100px;
+}
+
+.logotipo{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
+
+.space{
+	margin-right: 50px;
+}
+
+.lista-2{
+	list-style: none;
+	display: none;
+  position: absolute;
+  padding: 0;
+
+}
+
+
+.space:hover .lista-2{
+	display: block;
+	position: absolute;
+	padding: 0;
+	right: 0;
+	width: 470px;
+}
+
+.space:hover{
+	background-color: grey;
+}
+
+
