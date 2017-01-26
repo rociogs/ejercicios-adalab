@@ -1,0 +1,167 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color:grey;
+	margin: 0%;
+}
+
+h1{
+	color:#f0a140;
+	font-family: cursive;
+	text-align: center;
+	font-size: 70px;
+	position: fixed;
+	width: 100%;
+	background-color: purple;
+	margin-top: 0%;
+	padding: 20px;
+	left: 0%;
+
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 30px;
+
+}
+
+
+a{
+	font-size: 25px;
+	text-decoration:none;   
+
+}   
+
+
+
+
+.titulos{
+	color:white;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+.parrafo{
+	color: pink;
+	font-family:sans-serif;
+
+}
+
+.lista-futbol{
+	color: white;
+	font-size:20px;
+	margin: 16px;
+}
+
+.lista-baloncesto{
+	color: orange;
+	font-size:20px;
+	margin: 16px;
+}
+
+
+.lista-balonmano{
+	color: blue;
+	font-size:20px;
+	margin: 16px;
+}
+
+.lista-voley{
+	color: yellow;
+	font-size:20px;
+	margin: 16px;
+}
+
+.enumeracion{
+	color: purple
+}
+
+
+.imagen-madrid{
+	width: 500px;
+	float: right;
+	margin: 50px;
+	margin-top: 5px;
+}
+
+.mitad-imagen{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin-top: 100px;
+}
+
+.imagen-lahaya{
+	width: 500px;
+	height:500px;
+	
+}
+
+.texto-descripcion{
+	float: left;
+	margin-top: 200px;
+}
+
+
+#iconos-lista{
+	list-style-image:url("fotos/rainbow.png"); 
+}
+
+
+#foto-rocio{
+	
+	width: 800px
+	margin-bottom:60px;
+	border: 10px ridge pink;
+	margin-top: 200px; 
+}
+
+.imagenes-tabla{
+	width: 250px;
+}
+
+.container{
+	width:800px;
+	display: inline-block;
+	margin: 0 auto;
+	position: absolute;
+	left: 5%;
+}
+
+.ancho-texto{
+	max-width: 1000px;
+}
+
+.general{
+	display: flex;
+	
+}
+
+.space{
+	display: flex;
+	flex-direction: column;
+	margin: 16px
+}
+
+a:hover{
+	background-color: red;
+}
+
+a:active{
+	color: black;
+}
+
+@media screen and (min-width: 481px) {
+	.ancho-texto{ font-size: 16px;}
+	.space{ width: 33.3333%;}
+
+@media screen and (min-width: 960px) {
+	.ancho-texto { font-size: 24px;
+		
+	}
+
+	
+}
