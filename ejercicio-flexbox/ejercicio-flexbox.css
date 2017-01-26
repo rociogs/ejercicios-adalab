@@ -1,0 +1,51 @@
+.container{
+	display: flex;
+	width: 100%;
+	max-width: 960px;
+	flex-direction: column;
+}
+
+.header{
+	background-color: red;
+	text-align: center;
+
+}
+
+.row{
+	flex-direction: row;
+	display: flex;
+}
+
+.aside1{
+
+	background-color: yellow;
+	width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.texto{
+	background-color: blue;
+	width: 500px;
+	text-align: center;
+
+}
+
+.aside2{
+	background-color: pink;
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	
+}
+
+.footer{
+	background-color: green;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	
+}
