@@ -1,0 +1,20 @@
+.boton{
+	background-color: blue;
+}
+
+@media only screen and ( min-width: 468px) {
+	/*tablet*/
+
+.boton {
+	background-color: red;
+}
+
+}
+
+@media only screen and(min-width: 768){
+	/*escritorio*/
+
+	.boton{
+		background-color: pink;
+	}
+}
