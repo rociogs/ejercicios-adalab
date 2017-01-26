@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
+  color: grey;
+  line-height: 1.5; }
+
+.foto-perfil {
+  width: 33.33333%;
+  padding: 20px; }
+
+.general {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.foto {
+  width: 100%; }
+
+.nombre {
+  color: black; }
+
+@media only screen and (min-width: 600px) {
+  .general {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .foto-perfil {
+    width: 100%; } }
+
+@media only screen and (min-width: 900px) {
+  .general {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .foto-perfil {
+    width: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */

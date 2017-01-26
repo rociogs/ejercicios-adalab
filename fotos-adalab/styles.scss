@@ -1,0 +1,55 @@
+$width:1/3 *100%;
+$color-primario:white;
+
+*{
+	box-sizing:border-box;
+}
+body{
+	background-color:$color-primario;
+	font-family: 'Rubik', sans-serif;
+	color:grey;
+	line-height:1.5;
+}
+
+.foto-perfil{
+	width:$width;
+	padding:20px;
+}
+
+.general{
+	display:flex;
+	flex-direction:column;
+}
+
+.foto{
+	width:100%;
+}
+
+.nombre{
+	color:black;
+}
+
+.wrapper{
+
+}
+
+@media only screen and ( min-width: 600px){
+	.general{
+   display: flex;
+	}
+	.foto-perfil{
+		width: 100%;
+	}
+
+}
+
+@media only screen and ( min-width: 900px){
+.general{
+display:flex;
+flex-direction:row;
+}
+.foto-perfil{
+	width:100%;
+}
+}
+
