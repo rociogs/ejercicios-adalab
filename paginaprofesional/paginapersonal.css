@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: courier, serif;
+	
+}
+
+#enlace-video{
+
+}
+
+#enlace-about{
+	
+}
+
+#enlace-contacto{
+
+}
+
+.imagen-fondo{
+	background-image: url(fotos/fotofondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0% 0%;
+
+
+}
+
+.header{
+	font-size: 70px;
+	font-family: courier;
+	
+}
+.section{
+	font-size: 40px;
+	margin: 0%;
+	align-items: center;
+	display: flex;
+
+}
+
+.posicion{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.portfolio{
+	background-color: white;
+	margin-top: 600px;
+	display: flex; 
+	
+}
+
+.video{
+	font-size: 50px;
+	margin-left: 200px;
+	
+}
+
+.texto{
+	font-size: 50px;
+	margin-left: 200px;
+}
+.contacto{
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
