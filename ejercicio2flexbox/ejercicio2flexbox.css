@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+#container{
+	display: flex;
+	width: 100%;
+	max-width: 840px;
+
+}
+
+.foto-tucan{
+	width: 200px;
+	border-radius: 5px;
+
+}
+
+
+.h1 {
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+.h2{
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+.reserva{
+	background-color: grey;
+	border-radius: 5px;
+	
+}
+
+.presupuesto{
+	background-color: white;
+	border: 5px ridge grey;
+	border-radius: 5px;
+
+}
+
+.valoraciones{
+	display: flex;
+	flex-direction: row;
+
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.button:hover{
+	background-color: red;
+}
+
+.button:active{
+	background-color: red;
+}
+
+.derecha{
+	display: inline;
+
+}
